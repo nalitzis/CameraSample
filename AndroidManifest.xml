@@ -20,7 +20,7 @@
         <activity
             android:name=".SimpleCameraActivity"
             android:label="@string/title_activity_simple_camera"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
